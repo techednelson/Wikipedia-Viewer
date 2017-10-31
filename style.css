@@ -1,0 +1,85 @@
+/* Global */
+body {
+    background: url(https://webtechnelson.com/images/wikipedia_viewer/puzzle.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  overflow-x: hidden;
+} 
+nav { background-color: #121212; }
+
+}
+.pointer {
+    cursor: pointer;
+    cursor: hand;
+}
+button {
+    cursor: pointer;
+    cursor: hand;
+}
+
+/* Title, Search Box & Random Button */
+h1 {
+    position: relative;
+    margin-top: 2%;
+    color: #6B6B6B;
+}
+#searchBox {  
+    width: 20rem;
+}
+.form-control:focus {
+  border-color: #CFCFCF;
+  box-shadow: inset 0 1px 1px #CFCFCF;
+    outline: none;
+}
+#randomButton {
+    position: relative;
+    top: 1rem;
+}
+#randomLetter {
+    color: #6B6B6B;
+}
+.addMargin {
+    position: relative;
+    margin-top: 2%;
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+    h1 { margin-top: 6%; }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    h1 { margin-top: 10%; }
+}
+@media (min-width: 992px) and (max-width: 1999px) {
+    h1 { margin-top: 14%; }
+} 
+@media (min-width: 1200) {
+    h1 { margin-top: 16%; }
+}
+
+/* Wikipedia Entries Result */
+.searchResult {
+    position: relative;
+    margin: 1.5rem 0;
+    top: 1rem;
+    height: auto;
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 0.5rem;
+    border: 0.25px solid #404040;
+}
+
+.searchResult a {
+    text-decoration: none;
+    color: black;
+}
+.title {
+    font-weight: bold;
+}
+
+#lastResult {
+    margin-bottom: 6rem;
+}
+

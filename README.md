@@ -1,6 +1,6 @@
 # FreeCodeCamp-Challenge | Intermediate Front End Development Project
 
-# Build a Tribute Page
+# Build a Wikipedia Viewer
 
 Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/FreeCodeCamp/full/wGqEga/.
 
